@@ -24,3 +24,9 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+react-ui:
+  apiUrl: https://api.simonjamesrowe.com
+  gaTrackingToken: UA-179384022-2
+  hotJarTrackingToken: 2022736
+strapi-cms:
+  databaseName: cms-production
