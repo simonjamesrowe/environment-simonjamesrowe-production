@@ -18,7 +18,7 @@ expose:
     http: "false"
     tlsSecretName: tls-simonjamesrowe-com-p
     tlsacme: "true"
-    urltemplate: '{{.Service}}-{{.Namespace}}.{{.Domain}}'
+    urltemplate: '{{.Service}}.{{.Domain}}'
   production: true
 jenkins:
   Servers:
